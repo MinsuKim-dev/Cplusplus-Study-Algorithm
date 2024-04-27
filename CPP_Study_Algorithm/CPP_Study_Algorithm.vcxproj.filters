@@ -8,6 +8,9 @@
     <Filter Include="소스 파일\01. 선형 자료 기초">
       <UniqueIdentifier>{21197e15-d310-474f-9a73-443af5aec67b}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\02. 그래프 기초">
+      <UniqueIdentifier>{b15fdecd-42b5-44a3-8941-3e624383e201}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="CPP_Study_Algorithm.cpp">
@@ -30,6 +33,15 @@
     </ClCompile>
     <ClCompile Include="01_06. 선형 자료구조 마무리.cpp">
       <Filter>소스 파일\01. 선형 자료 기초</Filter>
+    </ClCompile>
+    <ClCompile Include="02_01. 그래프 기초.cpp">
+      <Filter>소스 파일\02. 그래프 기초</Filter>
+    </ClCompile>
+    <ClCompile Include="02_02. DFS - 깊이 우선 탐색.cpp">
+      <Filter>소스 파일\02. 그래프 기초</Filter>
+    </ClCompile>
+    <ClCompile Include="02_03. BFS 너비 우선 탐색.cpp">
+      <Filter>소스 파일\02. 그래프 기초</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
