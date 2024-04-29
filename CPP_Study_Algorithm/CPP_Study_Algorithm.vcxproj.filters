@@ -40,7 +40,7 @@
     <ClCompile Include="02_02. DFS - 깊이 우선 탐색.cpp">
       <Filter>소스 파일\02. 그래프 기초</Filter>
     </ClCompile>
-    <ClCompile Include="02_03. BFS 너비 우선 탐색.cpp">
+    <ClCompile Include="02_03. BFS - 너비 우선 탐색.cpp">
       <Filter>소스 파일\02. 그래프 기초</Filter>
     </ClCompile>
   </ItemGroup>

@@ -51,7 +51,7 @@ void CreateGraph()
 	};
 }
 
-// BFS는 예약 시스템으로 만들면 된다.
+// BFS는 큐로 예약 시스템을 만들면 된다.
 void BFS(int here)
 {
 	// 누구에 의해서 발견 되었는지?
@@ -73,9 +73,9 @@ void BFS(int here)
 
 		cout << "VISITED : " << here << endl;
 
-		for (int there : adjacent[here])
+		for (int there : adjacent[here]) // int there = 0; there < 6; there++ - 인접 행렬
 		{
-			if (discovered[there])
+			if (discovered[there]) // adjacent[here][there] == 0 - 인접 행렬
 				continue;
 
 			q.push(there); // 다음 큐를 예약하고

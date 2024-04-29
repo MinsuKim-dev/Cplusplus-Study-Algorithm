@@ -151,7 +151,7 @@
     <ClCompile Include="02_02. DFS - 깊이 우선 탐색.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="02_03. BFS 너비 우선 탐색.cpp">
+    <ClCompile Include="02_03. BFS - 너비 우선 탐색.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="CPP_Study_Algorithm.cpp">
