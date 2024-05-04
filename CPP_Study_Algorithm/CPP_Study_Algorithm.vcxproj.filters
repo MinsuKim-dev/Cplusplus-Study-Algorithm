@@ -11,6 +11,9 @@
     <Filter Include="소스 파일\02. 그래프 기초">
       <UniqueIdentifier>{b15fdecd-42b5-44a3-8941-3e624383e201}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\03. 힙과 우선순위 큐">
+      <UniqueIdentifier>{5ef3714b-bff3-4109-a94d-7d207c761eff}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="CPP_Study_Algorithm.cpp">
@@ -42,6 +45,21 @@
     </ClCompile>
     <ClCompile Include="02_03. BFS - 너비 우선 탐색.cpp">
       <Filter>소스 파일\02. 그래프 기초</Filter>
+    </ClCompile>
+    <ClCompile Include="02_04. 다익스트라 알고리즘.cpp">
+      <Filter>소스 파일\02. 그래프 기초</Filter>
+    </ClCompile>
+    <ClCompile Include="03_01. 트리 기초.cpp">
+      <Filter>소스 파일\03. 힙과 우선순위 큐</Filter>
+    </ClCompile>
+    <ClCompile Include="03_02. 힙 이론.cpp">
+      <Filter>소스 파일\03. 힙과 우선순위 큐</Filter>
+    </ClCompile>
+    <ClCompile Include="03_03. 우선 순위 큐 구현 연습.cpp">
+      <Filter>소스 파일\03. 힙과 우선순위 큐</Filter>
+    </ClCompile>
+    <ClCompile Include="03_04. AStar 길찾기 알고리즘.cpp">
+      <Filter>소스 파일\03. 힙과 우선순위 큐</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

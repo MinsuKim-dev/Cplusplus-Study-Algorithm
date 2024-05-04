@@ -21,6 +21,7 @@ public:
 private: 
 	void		RightWeightMethod();
 	void		BFS();
+	void		AStar();
 
 private:
 	Pos			_pos = { };
