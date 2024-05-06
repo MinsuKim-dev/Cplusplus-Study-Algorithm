@@ -14,6 +14,9 @@
     <Filter Include="소스 파일\03. 힙과 우선순위 큐">
       <UniqueIdentifier>{5ef3714b-bff3-4109-a94d-7d207c761eff}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\04. 탐색 트리">
+      <UniqueIdentifier>{c634c3c8-1ed1-4853-93a4-aa53f9bd0203}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="CPP_Study_Algorithm.cpp">
@@ -61,5 +64,19 @@
     <ClCompile Include="03_04. AStar 길찾기 알고리즘.cpp">
       <Filter>소스 파일\03. 힙과 우선순위 큐</Filter>
     </ClCompile>
+    <ClCompile Include="04_01. 이진 탐색.cpp">
+      <Filter>소스 파일\04. 탐색 트리</Filter>
+    </ClCompile>
+    <ClCompile Include="04_02. 이진 탐색 트리.cpp">
+      <Filter>소스 파일\04. 탐색 트리</Filter>
+    </ClCompile>
+    <ClCompile Include="04_02. BinarySearchTree.cpp">
+      <Filter>소스 파일\04. 탐색 트리</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="04_02. BinarySearchTree.h">
+      <Filter>소스 파일\04. 탐색 트리</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
